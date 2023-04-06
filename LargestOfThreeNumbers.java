@@ -8,13 +8,17 @@ public class LargestOfThreeNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value1 = ");
         int value1 = sc.nextInt();
+
         System.out.print("Enter the value2 = ");
         int value2 = sc.nextInt();
+
         System.out.print("Enter the value3 = ");
         int value3 = sc.nextInt();
+
         System.out.print("Enter the value4 = ");
         int value4 = sc.nextInt();;
 
+        //Checking for largest
         if (value1 > value2 && value1 > value3 && value1 > value4){
             System.out.println(value1 +" is largest");
         }else if(value2 > value3 && value2 > value4){
